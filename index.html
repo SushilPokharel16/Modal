@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">
+  </style>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  <script src="Jquery-3.1.1/jquery-3.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">Menu</button>
+
+<div class="navbar-collapse collapse" data-toggle="collapse" id="menu">
+  <ul class="nav nav-justified navbar-default">
+      <li><a href="#"><span class="btn btn-success">Home</span></a></li>
+      <li><a href="#">About</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+          </ul>
+      </li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Map</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-search"></span></li>
+          </ul>
+</div>
+Here we are making collapse menu bar with dropdown-menu.
+<!-- 
+<hr><hr>
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#hello">Menu</button>
+<div class="navbar-collapse collapse" id="hello">
+  <ul class="nav  nav-justified navbar-inverse">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Home</a></li>
+  </ul>
+</div> -->
+
+<hr><hr>
+<div>
+  <ul class="nav nav-tabs">
+    <li class="active">
+      <a href="#popular" data-toggle="tab">Popular</a>
+    </li>
+    <li><a href="#latest" data-toggle="tab">Latest</li>
+  </ul>
+      <div class="tab-content">
+        <div class="tab-pane fade in" id="popular">THis is the hottest deal in Mc Donald.</div>
+        <div class="tab-pane fade" id="latest">We are serving home delivery from onwards.</div>
+</div>
+<hr><hr>
+    <div>
+      <button type="button" name="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#new-modal">Message</button>
+        <div class="modal" id="new-modal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h1>Good afternoon all!</h1>
+                </div>
+              <div class="modal-body">
+                It is my pleasure to kindly invite you to our...
+              </div>
+                <div class="modal-footer">
+                  <button type="button" name="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
